@@ -15,8 +15,8 @@
     "cta": "Contact Me"
   },
   "intro": {
-    "eyebrow": "Who is Raul?",
-    "title": "Who is Raul?",
+    "eyebrow": "About Raul",
+    "title": "About Raul?",
     "body": "Raul Pardeilhan is an international model, actor, director and creative entrepreneur whose work spans film, fashion, visual storytelling and purpose-driven innovation. With more than two decades of experience across Europe, Australia and Asia, he brings together cinematic vision, performance and global creative leadership.",
     "cta": "More About Me"
   },
@@ -43,7 +43,8 @@
   { "slug": "hiking", "title": "Hiking", "tags": ["Lifestyle", "Outdoors"] },
   { "slug": "polaroid", "title": "Polaroid", "tags": ["Portraits", "Analog"] },
   { "slug": "surf", "title": "Surf", "tags": ["Lifestyle", "Sport"] },
-  { "slug": "dj", "title": "DJ Raul", "tags": ["Music", "Events"] }
+  { "slug": "dj", "title": "DJ Raul", "tags": ["Music", "Events"] },
+  { "slug": "TVC-VIDEOS", "title": "TVC", "tags": ["Commercial", "TV"] }
 ]
   },
   "testimonials": {

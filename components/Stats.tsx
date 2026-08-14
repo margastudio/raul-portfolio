@@ -49,25 +49,18 @@ export default function Stats() {
         <h3 className="font-display text-2xl md:text-3xl">{t('title')}</h3>
       </RevealOnScroll>
 
-      {/* Logo marquee - reemplazar por logos reales en /public/images/brands */}
-      <RevealOnScroll delay={0.15} className="mt-14 overflow-hidden">
-        <div className="flex flex-wrap items-center justify-center gap-x-16 gap-y-8 opacity-70 grayscale">
-          {BRAND_LOGOS.map((src, i) => (
-            <img key={i} src={src} alt="Brand logo" className="h-8 md:h-10 w-auto object-contain" />
-          ))}
-        </div>
-      </RevealOnScroll>
-
-      <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
-        {stats.map((s, i) => (
-          <RevealOnScroll key={s.key} delay={i * 0.1}>
-            <div className="font-display text-4xl md:text-6xl text-accent">
-              <Counter to={s.value} />+
-            </div>
-            <p className="mt-3 text-xs tracking-widest2 uppercase text-foreground/60">{t(s.key)}</p>
-          </RevealOnScroll>
-        ))}
-      </div>
-    </section>
-  );
-}
+     {/* Logo ticker infinito */}
+<RevealOnScroll delay={0.15} className="mt-14 overflow-hidden">
+  <div className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+    <div className="flex w-max animate-marquee gap-20">
+      {[...BRAND_LOGOS, ...BRAND_LOGOS].map((src, i) => (
+        <img
+          key={i}
+          src={src}
+          alt="Brand logo"
+          className="h-14 md:h-20 w-auto object-contain shrink-0 opacity-90"
+        />
+      ))}
+    </div>
+  </div>
+</RevealOnScroll>
