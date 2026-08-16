@@ -49,18 +49,33 @@ export default function Stats() {
         <h3 className="font-display text-2xl md:text-3xl">{t('title')}</h3>
       </RevealOnScroll>
 
-     {/* Logo ticker infinito */}
-<RevealOnScroll delay={0.15} className="mt-14 overflow-hidden">
-  <div className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-    <div className="flex w-max animate-marquee gap-20">
-      {[...BRAND_LOGOS, ...BRAND_LOGOS].map((src, i) => (
-        <img
-          key={i}
-          src={src}
-          alt="Brand logo"
-          className="h-14 md:h-20 w-auto object-contain shrink-0 opacity-90"
-        />
-      ))}
-    </div>
-  </div>
-</RevealOnScroll>
+      {/* Grilla de estadísticas */}
+      <RevealOnScroll delay={0.1} className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        {stats.map((stat) => (
+          <div key={stat.key} className="flex flex-col items-center gap-2">
+            <span className="font-display text-4xl md:text-5xl">
+              <Counter to={stat.value} />+
+            </span>
+            <span className="text-sm md:text-base text-white/60">{t(stat.key)}</span>
+          </div>
+        ))}
+      </RevealOnScroll>
+
+      {/* Logo ticker infinito */}
+      <RevealOnScroll delay={0.15} className="mt-14 overflow-hidden">
+        <div className="relative w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+          <div className="flex w-max animate-marquee gap-20">
+            {[...BRAND_LOGOS, ...BRAND_LOGOS].map((src, i) => (
+              <img
+                key={i}
+                src={src}
+                alt="Brand logo"
+                className="h-14 md:h-20 w-auto object-contain shrink-0 opacity-90"
+              />
+            ))}
+          </div>
+        </div>
+      </RevealOnScroll>
+    </section>
+  );
+}
