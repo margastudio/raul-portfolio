@@ -23,8 +23,12 @@ export async function generateMetadata({
   return {
     title: t('title'),
     description: t('description'),
-    // Meta tags orientados a Baidu (Google no indexa bien en China,
-    // así que priorizamos las etiquetas que Baidu sí utiliza)
+    icons: {
+      icon: '/favicon.png',
+      shortcut: '/favicon.png',
+      apple: '/favicon.png',
+    },
+    // Meta tags orientados a Baidu
     other: {
       'baidu-site-verification': 'REPLACE_WITH_YOUR_BAIDU_VERIFICATION_CODE',
       applicable_device: 'pc,mobile',
@@ -33,10 +37,24 @@ export async function generateMetadata({
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: 'https://raulpardeilhan.com',
+      url: 'https://raulpardeilhan.l.cd',
       siteName: t('title'),
       locale: locale === 'zh' ? 'zh_CN' : 'en_US',
       type: 'website',
+      images: [
+        {
+          url: '/images/og-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Raul Pardeilhan Portfolio',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
+      images: ['/images/og-image.jpg'],
     },
     alternates: {
       canonical: locale === 'en' ? '/' : `/${locale}`,
