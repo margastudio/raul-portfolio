@@ -3,7 +3,6 @@
 import { useTranslations } from 'next-intl';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
-import { Link } from '@/lib/navigation';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -42,12 +41,12 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.6 }}
           className="mt-8"
         >
-          <Link
-            href="/contact"
+          <a
+            href="mailto:shiningtigers@gmail.com"
             className="inline-block border border-foreground/40 px-8 py-3 text-xs tracking-widest2 uppercase transition-colors duration-300 hover:border-accent hover:text-accent"
           >
             {t('cta')}
-          </Link>
+          </a>
         </motion.div>
 
         <motion.p

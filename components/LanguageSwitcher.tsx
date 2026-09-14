@@ -23,7 +23,7 @@ export default function LanguageSwitcher() {
               }`}
               aria-current={isActive ? 'true' : undefined}
             >
-              {loc === 'en' ? 'EN' : '中文'}
+              {loc === 'en' ? 'EN' : loc === 'zh' ? '中文' : 'ES'}
             </button>
             {i < locales.length - 1 && <span className="mx-2 text-foreground/20">/</span>}
           </span>

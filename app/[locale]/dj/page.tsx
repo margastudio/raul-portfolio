@@ -1,7 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
-import WorksView from '@/components/WorksView';
+import DjContent from '@/components/DjContent';
 
-export default async function AlbumsPage({
+export default async function DjPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -9,9 +9,5 @@ export default async function AlbumsPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  return (
-    <div className="pt-32">
-      <WorksView />
-    </div>
-  );
+  return <DjContent />;
 }

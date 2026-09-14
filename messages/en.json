@@ -7,7 +7,7 @@
     "home": "Home",
     "about": "About",
     "works": "Works",
-    "contact": "Contact"
+    "dj": "DJ"
   },
   "hero": {
     "name": "RAUL PARDEILHAN",
@@ -30,22 +30,120 @@
   "albums": {
     "title": "Albums",
     "viewAll": "View All Albums",
-   "items": [
-  { "slug": "italy-milano", "title": "Italy - Milano", "tags": ["Conceptual", "Commercial"] },
-  { "slug": "polo", "title": "Polo", "tags": ["La Martina", "Commercial"] },
-  { "slug": "business", "title": "Business", "tags": ["Corporate", "Editorial"] },
-  { "slug": "acting", "title": "Acting", "tags": ["Film", "TV"] },
-  { "slug": "yoga", "title": "Yoga", "tags": ["Lifestyle", "Wellness"] },
-  { "slug": "pijama", "title": "Pijama", "tags": ["Lifestyle", "Commercial"] },
-  { "slug": "underwear", "title": "Underwear", "tags": ["Portraits", "Underwear"] },
-  { "slug": "modelcards", "title": "Model Cards", "tags": ["Portfolio", "Comp Card"] },
-  { "slug": "casual-ropa", "title": "Casual", "tags": ["Lifestyle", "Commercial"] },
-  { "slug": "hiking", "title": "Hiking", "tags": ["Lifestyle", "Outdoors"] },
-  { "slug": "polaroid", "title": "Polaroid", "tags": ["Portraits", "Analog"] },
-  { "slug": "surf", "title": "Surf", "tags": ["Lifestyle", "Sport"] },
-  { "slug": "dj", "title": "DJ Raul", "tags": ["Music", "Events"] },
-  { "slug": "TVC-VIDEOS", "title": "TVC", "tags": ["Commercial", "TV"] }
-]
+    "items": [
+      {
+        "slug": "italy-milano",
+        "title": "Italy - Milano",
+        "tags": [
+          "Conceptual",
+          "Commercial"
+        ]
+      },
+      {
+        "slug": "polo",
+        "title": "Polo",
+        "tags": [
+          "La Martina",
+          "Commercial"
+        ]
+      },
+      {
+        "slug": "business",
+        "title": "Business",
+        "tags": [
+          "Corporate",
+          "Editorial"
+        ]
+      },
+      {
+        "slug": "acting",
+        "title": "Acting",
+        "tags": [
+          "Film",
+          "TV"
+        ]
+      },
+      {
+        "slug": "yoga",
+        "title": "Yoga",
+        "tags": [
+          "Lifestyle",
+          "Wellness"
+        ]
+      },
+      {
+        "slug": "pijama",
+        "title": "Pijama",
+        "tags": [
+          "Lifestyle",
+          "Commercial"
+        ]
+      },
+      {
+        "slug": "underwear",
+        "title": "Underwear",
+        "tags": [
+          "Portraits",
+          "Underwear"
+        ]
+      },
+      {
+        "slug": "modelcards",
+        "title": "Model Cards",
+        "tags": [
+          "Portfolio",
+          "Comp Card"
+        ]
+      },
+      {
+        "slug": "casual-ropa",
+        "title": "Casual",
+        "tags": [
+          "Lifestyle",
+          "Commercial"
+        ]
+      },
+      {
+        "slug": "hiking",
+        "title": "Hiking",
+        "tags": [
+          "Lifestyle",
+          "Outdoors"
+        ]
+      },
+      {
+        "slug": "polaroid",
+        "title": "Polaroid",
+        "tags": [
+          "Portraits",
+          "Analog"
+        ]
+      },
+      {
+        "slug": "surf",
+        "title": "Surf",
+        "tags": [
+          "Lifestyle",
+          "Sport"
+        ]
+      },
+      {
+        "slug": "dj",
+        "title": "DJ Raul",
+        "tags": [
+          "Music",
+          "Events"
+        ]
+      },
+      {
+        "slug": "TVC-VIDEOS",
+        "title": "TVC",
+        "tags": [
+          "Commercial",
+          "TV"
+        ]
+      }
+    ]
   },
   "testimonials": {
     "eyebrow": "Smiles and Stories from",
@@ -103,14 +201,35 @@
     "brandsBody": "Raul has worked with elite brands and many Fortune 500 companies, including: Aston Martin, De Rucci, Canali, Motivi, La Martina, Angelo Nardelli, Moschino, Huawei, Philips, Zara, H&M, Chevignon, Miss Sixty, Samsonite (Asian Advertising Campaign), Hugo Boss, Joe One, BossSunwen, Menhardum, Goldlion, Saint Paulon, Ferrari, SKAP, Giordano, Canudilo, Mo&Co, Lululemon, Mobike, Nissan, Mazda CX5, DongFeng Commercial Vehicle, Tommy Hilfiger, JIBB Swiss made, Mission Hills Shenzhen, HSBC South China branch, Rosewood Cambodia, Stefano Ricci, Uncle Toby's and Woolworths, and many more.",
     "letsWork": "Let's Work",
     "qualitiesTitle": "What You Will Find in Me",
-    "qualities": ["Creative Vision", "Professionalism", "Passion", "Adaptability"],
+    "qualities": [
+      "Creative Vision",
+      "Professionalism",
+      "Passion",
+      "Adaptability"
+    ],
     "awardsEyebrow": "Shining Moments of Glory",
     "awardsTitle": "Awards",
     "awards": [
-      { "number": "01", "title": "Best Short Film — Guangzhou Film Festival", "year": "2018" },
-      { "number": "02", "title": "Outstanding Film Director and Executive Producer for the short film \"Newton's Laws\"", "year": "2019" },
-      { "number": "03", "title": "Outstanding Short Film at the Guangzhou Film Festival", "year": "2020" },
-      { "number": "04", "title": "TV series \"Children of the Bay Area\", broadcast on CCTV1", "year": "2020" }
+      {
+        "number": "01",
+        "title": "Best Short Film — Guangzhou Film Festival",
+        "year": "2018"
+      },
+      {
+        "number": "02",
+        "title": "Outstanding Film Director and Executive Producer for the short film \"Newton's Laws\"",
+        "year": "2019"
+      },
+      {
+        "number": "03",
+        "title": "Outstanding Short Film at the Guangzhou Film Festival",
+        "year": "2020"
+      },
+      {
+        "number": "04",
+        "title": "TV series \"Children of the Bay Area\", broadcast on CCTV1",
+        "year": "2020"
+      }
     ],
     "historyTitle": "History",
     "historyParagraphs": [
@@ -131,20 +250,6 @@
     ],
     "news": "News"
   },
-  "contact": {
-    "title": "Let's Work Together",
-    "subtitle": "Have a project in mind? Get in touch and let's create something remarkable.",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Send Message",
-      "success": "Thank you! Your message has been sent.",
-      "error": "Something went wrong. Please try again or email us directly."
-    },
-    "directEmail": "Or email me directly at",
-    "social": "Follow"
-  },
   "footer": {
     "tagline": "Model · Actor · Director · Creative Entrepreneur",
     "rights": "All rights reserved.",
@@ -158,5 +263,41 @@
   },
   "languageSwitcher": {
     "label": "Language"
+  },
+  "dj": {
+    "pageTitle": "DJ Laohu (老虎)",
+    "aboutEyebrow": "About",
+    "aboutTitle": "Music & Live Experiences",
+    "bio": "Raúl Pardeilhan, known as DJ Laohu (老虎), is an Argentinian-born DJ, musician, percussionist, and event producer with over 20 years of experience creating immersive musical experiences worldwide. Combining electronic music, live percussion, and healing sound practices, Raúl has performed at international festivals and exclusive events, including Burning Man (2018 & 2019) and the New Zealand Spirit Festival. His unique approach blends energy, rhythm, and connection to create memorable experiences for diverse audiences. His performances have also reached the luxury industry, collaborating with renowned brands and events such as the opening of Virgin Hotels New York City (2023), Chaumet, and Messika Jewelry (2024). Based between Europe, Asia, and the Americas, Raúl continues to connect cultures through music, creativity, and shared experiences.",
+    "videosTitle": "Live Sets & Performances",
+    "timeTravelers": {
+      "lineupLabel": "DJ Line-Up",
+      "title": "Time Travelers",
+      "subtitle": "His music project with friends",
+      "tagline": "Three visionary musicians gather in brilliance, creating a unique sonic experience. With organic resonance, healing frequencies, and rhythmic fusion, they journey through time and space, entering their mysterious world, experiencing the transcendental journey of time travelers.",
+      "whoWeAre": "Who we are?",
+      "members": [
+        {
+          "name": "João Hein",
+          "role": "Guitarist, Singer & Flutist",
+          "bio": "Brazilian guitarist, singer, and flutist. Born into a musical family, he received an accordion from his grandfather at the age of 5, teaching him to play his first piece, thus beginning his musical career. With extensive performance experience, he excels in using various musical styles to heal hearts."
+        },
+        {
+          "name": "DJ Tiger",
+          "role": "DJ & Percussion",
+          "bio": "An outstanding musician from Argentina. His music style spans from deep house, downtempo organic, tribal, and jungle to tech house, techno, funk, and melodic ambiance. A talented DJ with a keen ear for selection and solid mixing. To create a brighter future and become a better artist, he is currently involved in a healing project with powerful frequencies, touching the hearts of everyone and establishing connections in the harmonious present."
+        },
+        {
+          "name": "Jake",
+          "role": "Composer & Sound Therapist",
+          "bio": "British composer and sound therapist. Having composed for hundreds of works, with over 40 receiving domestic and international awards in fields such as film, television, documentaries, virtual reality, and animation. Since leaving commercial projects in 2018, Jake has dedicated his life and music more fully to sound therapy and meditation music, reaching audiences of hundreds of thousands globally."
+        }
+      ]
+    }
+  },
+  "works": {
+    "photosTab": "Photos",
+    "videosTab": "Videos",
+    "videosEmpty": "Videos coming soon."
   }
 }

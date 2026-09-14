@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Link } from '@/lib/navigation';
 import RevealOnScroll from './RevealOnScroll';
 
 type Award = { number: string; title: string; year: string };
@@ -32,12 +31,12 @@ export default function AboutContent() {
         <RevealOnScroll className="mx-auto max-w-2xl text-center">
           <p className="text-lg leading-relaxed text-foreground/70">{t('intro')}</p>
           <div className="mt-8 flex items-center justify-center gap-6">
-            <Link
-              href="/contact"
+            <a
+              href="mailto:shiningtigers@gmail.com"
               className="border border-accent px-8 py-3 text-xs tracking-widest2 uppercase text-accent hover:opacity-70 transition-opacity"
             >
               {t('cta')}
-            </Link>
+            </a>
             <a
               href="/raul-pardeilhan-profile.pdf"
               className="text-xs tracking-widest2 uppercase text-foreground/60 border-b border-foreground/30 pb-1 hover:text-accent hover:border-accent transition-colors"

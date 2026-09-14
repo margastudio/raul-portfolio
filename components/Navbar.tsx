@@ -21,7 +21,7 @@ export default function Navbar() {
     { href: '/', label: t('home') },
     { href: '/about', label: t('about') },
     { href: '/albums', label: t('works') },
-    { href: '/contact', label: t('contact') },
+    { href: '/dj', label: t('dj') },
   ];
 
   return (
@@ -35,7 +35,7 @@ export default function Navbar() {
     >
       <div className="container-px flex items-center justify-between h-20">
         <Link href="/" className="font-display text-sm tracking-widest2 uppercase">
-          Raul Pardeilhan
+          <span className="font-zh normal-case mr-1">老虎</span>Raul Pardeilhan
         </Link>
 
         <nav className="hidden md:flex items-center gap-10 text-xs tracking-widest2 uppercase">

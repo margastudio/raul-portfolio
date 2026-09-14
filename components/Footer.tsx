@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="border-t border-white/5">
       <div className="container-px py-20 grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
-          <h4 className="font-display text-2xl">Raul Pardeilhan</h4>
+          <h4 className="font-display text-2xl"><span className="font-zh normal-case mr-1">老虎</span>Raul Pardeilhan</h4>
           <p className="mt-3 text-sm text-foreground/50">{t('tagline')}</p>
           <a
             href="mailto:shiningtigers@gmail.com"
@@ -31,7 +31,7 @@ export default function Footer() {
           <Link href="/" className="hover:text-accent transition-colors">{tNav('home')}</Link>
           <Link href="/about" className="hover:text-accent transition-colors">{tNav('about')}</Link>
           <Link href="/albums" className="hover:text-accent transition-colors">{tNav('works')}</Link>
-          <Link href="/contact" className="hover:text-accent transition-colors">{tNav('contact')}</Link>
+          <Link href="/dj" className="hover:text-accent transition-colors">{tNav('dj')}</Link>
         </div>
 
         <div className="flex flex-col gap-3 text-sm">
